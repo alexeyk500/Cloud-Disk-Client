@@ -1,0 +1,108 @@
+.disk {
+  margin-top: 64px;
+}
+.disk__title {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.disk__button_first-row {
+  display: flex;
+  justify-content: space-between;
+}
+.disk__buttons_right {
+  display: flex;
+}
+.disk__button_list {
+  height: 33px;
+  width: 33px;
+  margin-right: 32px;
+  background-color: #1a1e27;
+  border: none;
+  border-radius: 4px;
+}
+.disk__button_list:hover {
+  cursor: pointer;
+}
+.disk__button_plates {
+  height: 33px;
+  width: 33px;
+  background-color: #1a1e27;
+  border: none;
+  border-radius: 4px;
+}
+.disk__button_plates:hover {
+  cursor: pointer;
+}
+.disk__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.disk__button_back {
+  width: 150px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+  padding: 6px 10px;
+  font-size: 18px;
+  background-color: #1a1e27;
+  border: none;
+  border-radius: 4px;
+}
+.disk__button_back:hover {
+  cursor: pointer;
+}
+.disk__button_create {
+  width: 150px;
+  margin-right: 32px;
+  padding: 6px 10px;
+  font-size: 18px;
+  background-color: #1a1e27;
+  border: none;
+  border-radius: 4px;
+}
+.disk__button_create:hover {
+  cursor: pointer;
+  background-color: #1a1e27;
+}
+.disk__input-find {
+  width: 250px;
+  padding: 4px 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  background-color: #1a1e27;
+  border: none;
+  border-radius: 4px;
+}
+.disk__upload_label {
+  padding: 4px 10px;
+  font-size: 18px;
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+.disk__upload_label:hover {
+  cursor: pointer;
+}
+.disk__select {
+  padding: 4px 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1a1e27;
+}
+.disk__upload_input {
+  display: none;
+}
+.drag_area {
+  width: 100%;
+  height: calc(100vh - 50px - 40px);
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+  font-size: 32px;
+}
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+/*# sourceMappingURL=Disk.css.map */

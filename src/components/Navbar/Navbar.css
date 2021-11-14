@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  max-width: 1440px;
+  padding: 0 50px;
+  align-items: center;
+  background-color: #15181f;
+}
+.navbar__logo {
+  margin-right: 10px;
+}
+.navbar__header {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 700;
+}
+.navbar__login {
+  margin-right: 20px;
+}
+.navbar__logout {
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.navbar__registration {
+  margin-right: 20px;
+}
+.navbar__container-ico {
+  display: flex;
+  width: 32px;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+.navbar__ico {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Navbar.css.map */

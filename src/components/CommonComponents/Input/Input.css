@@ -1,0 +1,21 @@
+.input-container {
+  display: flex;
+}
+.input-input {
+  width: 100%;
+  height: 24px;
+  padding: 4px 10px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 16px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+  background-color: #1a1e27;
+}
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+/*# sourceMappingURL=Input.css.map */

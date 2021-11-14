@@ -1,0 +1,64 @@
+.fileList {
+  margin: 32px 0;
+  height: 85%;
+
+  &__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+  }
+
+  &__header {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 16px;
+  }
+
+  &__name {
+    grid-column-start: 2;
+  }
+
+  &__date {
+    grid-column-start: 5;
+    justify-self: center;
+  }
+
+  &__size {
+    grid-column-start: 6;
+    justify-self: center;
+  }
+
+  &__scroll-container {
+    height: 100%;
+    padding: 0 16px;
+    overflow-y: scroll;
+  }
+
+  &__empty-folder {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 92px;
+    font-size: 24px;
+    justify-content: center;
+  }
+
+  &__plates {
+    display: flex;
+  }
+}
+
+.file-enter-active {
+  animation: file-enter 500ms forwards;
+}
+
+@keyframes file-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

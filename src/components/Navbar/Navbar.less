@@ -1,0 +1,50 @@
+@import "../../utils/colors";
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  max-width: 1440px;
+  padding: 0 50px;
+  align-items: center;
+  background-color: @main-background-color;
+
+  &__logo {
+    margin-right: 10px;
+  }
+
+  &__header {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__login {
+    margin-right: 20px;
+  }
+
+  &__logout {
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none !important;
+  }
+
+  &__registration {
+    margin-right: 20px;
+  }
+
+  &__container-ico {
+    display: flex;
+    width: 32px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+
+  &__ico {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+}

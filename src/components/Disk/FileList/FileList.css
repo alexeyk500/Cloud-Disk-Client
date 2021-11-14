@@ -1,0 +1,55 @@
+.fileList {
+  margin: 32px 0;
+  height: 85%;
+}
+.fileList__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+.fileList__header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 16px;
+}
+.fileList__name {
+  grid-column-start: 2;
+}
+.fileList__date {
+  grid-column-start: 5;
+  justify-self: center;
+}
+.fileList__size {
+  grid-column-start: 6;
+  justify-self: center;
+}
+.fileList__scroll-container {
+  height: 100%;
+  padding: 0 16px;
+  overflow-y: scroll;
+}
+.fileList__empty-folder {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 92px;
+  font-size: 24px;
+  justify-content: center;
+}
+.fileList__plates {
+  display: flex;
+}
+.file-enter-active {
+  animation: file-enter 500ms forwards;
+}
+@keyframes file-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=FileList.css.map */
